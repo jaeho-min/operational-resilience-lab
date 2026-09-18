@@ -1,4 +1,4 @@
-# Project 003 - Multi-Source Power Continuity
+# Project 003 - Multi-Source Power Continuity(In Progress)
 
 The solar input reached 376 W in my saved readings. The full backup-power chain is still untested.
 
