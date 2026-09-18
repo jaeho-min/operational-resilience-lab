@@ -1,0 +1,9 @@
+date,timezone_displayed,device,network_icon,location,carrier,time,download_mbps,upload_mbps,idle_ping_ms,download_loaded_latency_ms,upload_loaded_latency_ms,jitter_ms,server_operator,screenshot
+2026-09-17,GMT,iPhone 16e,5G,rack,GO,07:51,18.81,4.76,19,1108,210,7.6,GO P.L.C.,go-rack.jpg
+2026-09-17,GMT,iPhone 16e,5G,rack,Epic,07:48,19.29,4.97,41,944,177,11.3,Epic Malta Ltd,epic-rack.jpg
+2026-09-17,GMT,iPhone 16e,5G,outside,GO,07:55,46.38,7.96,24,396,231,13.3,GO P.L.C.,go-outside.jpg
+2026-09-17,GMT,iPhone 16e,5G,outside,Epic,07:59,102.53,33.84,28,276,104,12.5,Epic Malta Ltd,epic-outside.jpg
+2026-09-17,GMT,iPhone 16e,5G,bedroom,GO,08:15,32.43,4.14,16,368,171,7.4,GO P.L.C.,go-bedroom.jpg
+2026-09-17,GMT,iPhone 16e,5G,bedroom,Epic,08:06,33.48,3.51,78,522,277,11.4,Epic Malta Ltd,epic-bedroom.jpg
+2026-09-17,GMT,iPhone 16e,5G,rooftop,GO,08:23,41.5,13.96,33,506,88,28.4,Epic Malta Ltd,go-rooftop.jpg
+2026-09-17,GMT,iPhone 16e,5G,rooftop,Epic,08:27,30.98,30.56,21,433,95,9.1,Epic Malta Ltd,epic-rooftop.jpg
