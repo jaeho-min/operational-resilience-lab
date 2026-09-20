@@ -40,8 +40,6 @@ This is a working map rather than a finished architecture. It will continue to e
 
 ## Projects
 
-## Projects
-
 ### [Project 000: The Baseline](project-000-baseline/README.md)
 
 Before testing failover and recovery, I needed a physical environment I could work in, inspect, and maintain.
