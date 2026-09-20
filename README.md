@@ -8,7 +8,7 @@ I built this one to find out how it fails, what keeps working, and whether recov
 
 This is a home lab I built on Gozo, a small Mediterranean island. It covers infrastructure, networking, power, physical safety, environmental monitoring, and recovery.
 
-The physical baseline is in place, but the system is still a work in progress. Starlink failover remains unresolved. The X-Sense sensor deployment is still offline. Solar input has been observed, but the full generator-to-battery-to-UPS chain has not yet been tested.
+The physical baseline is in place, but the system is still a work in progress. Starlink failover remains unresolved. The X-Sense sensor deployment is not yet online. Solar input has been observed, but the full generator-to-battery-to-UPS chain has not yet been tested.
 
 I document what worked, what failed, and what still needs testing.
 
