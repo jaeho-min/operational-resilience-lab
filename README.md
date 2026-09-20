@@ -16,10 +16,6 @@ I document what worked, what failed, and what still needs testing.
 
 NORMAL -> FAILURE -> DEGRADED -> RECOVER -> VERIFY
 
-## Operating model
-
-NORMAL -> FAILURE -> DEGRADED -> RECOVER -> VERIFY
-
 ## Operational resilience map
 
 ![Operational Resilience BCP/DR Map](media/architecture/operational-resilience-map-v1.jpeg)
