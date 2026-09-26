@@ -59,6 +59,8 @@ Project 002 owns network interruption and recovery. Project 003 owns power conti
 
 `NORMAL -> FAILURE -> DEGRADED -> RECOVER -> VERIFY`
 
-This first run records part of that sequence. The next tests will measure when the services I need are usable again.
+The initial reboot test established a partial recovery sequence, while the later Project 003 incident reinforced the need to separate local network continuity, WAN availability and fallback-path usability.
+
+The next tests will focus on timestamped service recovery and validating whether the intended secondary WAN can actually carry traffic through the UDR7.
 
 Failure is inevitable. Design the resilience.
