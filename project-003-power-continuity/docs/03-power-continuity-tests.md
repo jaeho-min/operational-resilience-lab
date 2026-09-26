@@ -89,4 +89,60 @@ The tested LAN path remained reachable while the UPS transitioned from direct gr
 This was a manual source-transfer test. It does not demonstrate automatic BLUETTI failover during an upstream grid outage.
 
 ### Evidence
-To be linked after confirming the exact uploaded filenames.
+
+- [UPS pre-test - 4% load](../media/power-continuity/test-02-ups-source-transfer/ups-pretest-load-4pct.jpeg)
+- [UPS pre-test - 131 W output](../media/power-continuity/test-02-ups-source-transfer/ups-pretest-output-131w.jpeg)
+- [Test 02 - UPS grid-to-BLUETTI source transfer video](../media/power-continuity/test-02-ups-source-transfer/test-02-ups-grid-to-bluetti-source-transfer.mp4)
+
+
+## Interrupted run - unexpected WAN outage
+
+### Objective
+
+Continue the power-continuity sequence with the BLUETTI supplying the UPS, then observe behavior during upstream grid loss.
+
+### Pre-test condition
+
+- BLUETTI was supplying the UPS.
+- The UPS remained online with the protected network load.
+- A pre-test BLUETTI state capture was recorded.
+- The same UPS baseline used for Test 02 applied immediately before this run.
+
+### What happened
+
+During the run, Internet connectivity was unexpectedly lost.
+
+At that point, an uncontrolled network variable had entered the test environment.
+
+Rather than continuing directly into the next power-failure stage, I stopped the planned sequence.
+
+### Decision
+
+The run was not used to claim successful WAN continuity or a completed upstream-grid failover test.
+
+Working Internet access was restored by connecting through Starlink Ethernet directly.
+
+### Root cause
+
+Not confirmed.
+
+The available evidence does not establish whether the WAN interruption was caused by:
+
+- the local ISP path,
+- the UDR7 WAN state,
+- another upstream network condition,
+- or timing coincident with the power test.
+
+No causal claim is assigned to the BLUETTI or UPS from this event.
+
+### Evidence
+
+- [BLUETTI state during interrupted run](../media/power-continuity/interrupted-run/bluetti-state-during-interrupted-run.jpeg)
+
+## Test 03 - deferred
+
+The planned next stage was to remove BLUETTI AC output while upstream grid power was already unavailable, forcing the CyberPower UPS to become the final active power source.
+
+This test was not completed during the controlled sequence because of the unexpected WAN event.
+
+Status: **Deferred**
