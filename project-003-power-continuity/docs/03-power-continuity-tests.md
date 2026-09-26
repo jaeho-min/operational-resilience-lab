@@ -83,10 +83,10 @@ Average RTT:      0 ms
 ```
 No LAN interruption was observed during the recorded source-transfer sequence.
 
-###Conclusion
+### Conclusion
 
 The tested LAN path remained reachable while the UPS transitioned from direct grid input, through temporary UPS battery operation, to BLUETTI AC input.
 This was a manual source-transfer test. It does not demonstrate automatic BLUETTI failover during an upstream grid outage.
 
-###Evidence
+### Evidence
 To be linked after confirming the exact uploaded filenames.
