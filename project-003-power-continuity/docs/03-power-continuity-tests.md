@@ -48,6 +48,6 @@ This result demonstrates continuity of the tested LAN path only. It does not by 
 
 ### Evidence
 
-- [UPS baseline - 131 W output](../media/power-continuity/test-01-ups-grid-loss/ups-baseline-output-131w.jpeg)
-- [UPS baseline - 5% load](../media/power-continuity/test-01-ups-grid-loss/ups-baseline-load-5pct.jpeg)
+- [UPS baseline - 132 W output](../media/power-continuity/test-01-ups-grid-loss/ups-baseline-output-132w.jpeg)
+- [UPS baseline - 4% load](../media/power-continuity/test-01-ups-grid-loss/ups-baseline-load-4pct.jpeg)
 - [Test 01 - UPS grid loss and recovery video](../media/power-continuity/test-01-ups-grid-loss/test-01-ups-grid-loss-recovery.mp4)
