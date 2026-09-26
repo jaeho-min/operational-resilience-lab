@@ -19,7 +19,7 @@ Record updated: 26 September 2026
 - I photographed the panel arrangement and used a Testo 860i to observe the power station, cable connection, input area and panel surface.
 - A controlled UPS grid-loss and recovery test completed with 129/129 successful LAN ping replies and 0% packet loss.
 - A manual UPS source-transfer test from direct grid input to BLUETTI AC output completed with 217/217 successful LAN ping replies and 0% packet loss.
-- A later upstream power-chain run was stopped after an unexpected WAN outage introduced an uncontrolled variable.
+- During the broader power-continuity session, Internet connectivity was found to be unavailable, so the planned sequence was stopped rather than continuing with an uncontrolled WAN variable.
 - Generator-supported testing remains incomplete because the generator did not start during initial commissioning.
 - Leakage-current validation remains deferred because the KPS DCM300LEAK clamp meter developed a mechanical jaw-alignment problem.
 
@@ -42,11 +42,11 @@ The solar results are snapshots from one session, not a continuous power log or 
 | BLUETTI supplying the UPS | Manual source-transfer test completed |
 | UPS grid-loss battery operation and recovery | Completed; tested LAN path remained reachable with 129/129 replies and 0% packet loss |
 | Grid-to-BLUETTI UPS source transfer | Completed; tested LAN path remained reachable with 217/217 replies and 0% packet loss |
-| Upstream grid-loss run through BLUETTI and UPS | Attempted but stopped after an unexpected WAN interruption introduced an uncontrolled variable |
+| Broader power-continuity session | Planned sequence stopped after Internet connectivity was found unavailable; exact WAN interruption onset not established |
 | WAN / Internet continuity | Not validated by the current power tests |
 | Daewoo GDA2500Di commissioning | Initial start unsuccessful; root cause not confirmed |
 | Generator-supported power chain | Deferred pending successful generator commissioning |
-| Leakage-current measurement | Deferred because of KPS DCM300LEAK mechanical jaw defect |
+| Leakage-current validation remains deferred because the KPS DCM300LEAK clamp meter has a mechanical jaw-alignment problem |
 | Critical-load runtime | Not yet measured |
 
 ## How this fits the lab
