@@ -1,3 +1,5 @@
+# Commissioning Blockers and Incidents
+
 ## Generator initial commissioning - no start
 
 ### Objective
@@ -21,6 +23,14 @@ I stopped the commissioning attempt rather than escalating into component-level 
 Not confirmed.
 
 The available observations are not sufficient to assign the failure to a specific component.
+
+### Status
+
+Generator-supported power-continuity testing remains deferred pending replacement or successful recommissioning.
+
+### Evidence
+
+- [`generator-no-start-attempt.mp4`](../media/commissioning/generator/generator-no-start-attempt.mp4)
 
 
 ## KPS DCM300LEAK measurement instrument - mechanical defect
@@ -52,12 +62,4 @@ Warranty and replacement handling were started.
 ### Evidence
 
 - [`kps-clamp-jaw-misalignment-redacted.mp4`](../media/commissioning/kps-dcm300leak/kps-clamp-jaw-misalignment-redacted.mp4)
-- [`kps-clamp-jaw-misalignment-closeup-redacted.jpg`](../media/commissioning/kps-dcm300leak/kps-clamp-jaw-misalignment-closeup-redacted.jpg)
-
-### Status
-
-Generator-supported power-continuity testing remains deferred pending replacement or successful recommissioning.
-
-### Evidence
-
-- [`generator-no-start-attempt.mp4`](../media/commissioning/generator/generator-no-start-attempt.mp4)
+- [`kps-clamp-jaw-misalignment-closeup-redacted.jpeg`](../media/commissioning/kps-dcm300leak/kps-clamp-jaw-misalignment-closeup-redacted.jpeg)
