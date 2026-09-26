@@ -30,8 +30,7 @@ Generator-supported power-continuity testing remains deferred pending replacemen
 
 ### Evidence
 
-- [`generator-no-start-attempt.mp4`](../media/commissioning/generator/generator-no-start-attempt.mp4)
-
+- [`generator no-start-attempt.mp4`](../media/commissioning/generator/generator%20no-start-attempt.mp4)
 
 ## KPS DCM300LEAK measurement instrument - mechanical defect
 
