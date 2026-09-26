@@ -138,8 +138,10 @@ No causal claim is assigned to the BLUETTI or UPS.
 
 ## Test 03 - deferred
 
-The planned next stage was to remove BLUETTI AC output while upstream grid power was already unavailable, forcing the CyberPower UPS to become the final active power source.
+The planned next stage was to test the UPS as the final power source by removing BLUETTI AC output after establishing the intended upstream power condition.
 
-This test was not completed during the controlled sequence because of the unexpected WAN event.
+This stage was not completed during the controlled sequence because the unexpected WAN interruption introduced an uncontrolled variable.
+
+No continuity result is claimed for this stage.
 
 Status: **Deferred**
