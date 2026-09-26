@@ -65,17 +65,18 @@ Warranty and replacement handling were started.
 - [`kps-clamp-jaw-misalignment-closeup-redacted.jpeg`](../media/commissioning/kps-dcm300leak/kps-clamp-jaw-misalignment-closeup-redacted.jpeg)
 
 
-## Unexpected WAN interruption during power testing
-
+## Internet connectivity unavailable during power testing
 ### Context
 
-During the later Grid -> BLUETTI -> UPS test sequence, Internet connectivity was unexpectedly lost.
+During the broader source-transfer and power-continuity session, Internet connectivity was found to be unavailable.
+
+The exact onset time of the connectivity loss was not established.
 
 The power test was stopped rather than continuing into another failure stage while the network state was uncertain.
 
 ### Decision
 
-I did not use this run to claim WAN continuity or successful multi-WAN failover.
+I did not use this run to claim Internet continuity or successful automatic WAN failover.
 
 Working connectivity was restored by using a direct Starlink Ethernet connection.
 
@@ -83,12 +84,12 @@ Working connectivity was restored by using a direct Starlink Ethernet connection
 
 Not confirmed.
 
-The available evidence does not establish whether the interruption originated from the ISP path, the UDR7 WAN state, another upstream network condition, or timing coincident with the power test.
+The available evidence does not establish the cause of the Internet connectivity loss. Possible areas include the ISP path, the UDR7 WAN state, another upstream network condition, or an event coincident with the power test.
 
 No causal claim is assigned to the BLUETTI or UPS.
 
 ### Evidence
 
-- [BLUETTI state during interrupted run](../media/power-continuity/interrupted-run/bluetti-state-during-interrupted-run.jpeg)
+- [BLUETTI state associated with the interrupted run](../media/power-continuity/interrupted-run/bluetti-state-during-interrupted-run.jpeg)
 
 Detailed test sequencing is documented in [Power Continuity Tests](03-power-continuity-tests.md).
