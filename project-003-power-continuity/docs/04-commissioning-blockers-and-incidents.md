@@ -1,4 +1,5 @@
 # Commissioning Blockers and Incidents
+Media capture times for the commissioning evidence are recorded in the [Evidence Index](05-evidence-index.md).
 
 ## Generator initial commissioning - no start
 
