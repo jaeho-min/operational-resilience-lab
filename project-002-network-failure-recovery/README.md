@@ -41,6 +41,16 @@ Melita is the recorded working primary path into the UDR7. The UDR7 connects to 
 
 The WAN screenshot shows Melita assigned to port 4 and Starlink WAN2 assigned to port 2, with Failover Only selected. A backup assignment is part of the configuration, not evidence that traffic can use it.
 
+## Later cross-project observation
+
+During a later Project 003 power-continuity run, Internet connectivity was unexpectedly lost while the power chain was being tested. The run was stopped rather than continuing into another failure stage with the network state uncertain.
+
+The cause of the WAN interruption was not established. The available observations do not distinguish between the ISP path, UDR7 WAN state, another upstream network condition, or an event coincident with the power test.
+
+Working Internet access was restored using a direct Starlink Ethernet connection. This was a manual fallback path and does not validate Starlink failover through the UDR7.
+
+The power-test context and evidence are recorded in [Project 003 - Power Continuity Tests](../project-003-power-continuity/docs/03-power-continuity-tests.md) and [Commissioning Blockers and Incidents](../project-003-power-continuity/docs/04-commissioning-blockers-and-incidents.md).
+
 ## Related projects
 
 [Project 000](../project-000-baseline/README.md) covers the physical baseline. [Project 001](../project-001-wireless-cellular-rf/README.md) owns connectivity performance and standalone path observations. Internet speed results will be expanded there alongside plan details and connection methods.
