@@ -71,7 +71,7 @@ Before testing failover and recovery, I needed a physical environment I could wo
 
 This project covers the room conversion, equipment layout, cable routing, environmental controls, and initial safety preparations.
 
-Further project records will be added as they are prepared for publication.
+Additional baseline records will be added as they are prepared for publication.
 
 ### [Project 001: Wireless, Cellular & RF](project-001-wireless-cellular-rf/README.md)
 
