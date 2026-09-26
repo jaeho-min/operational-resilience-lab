@@ -40,11 +40,13 @@ The next step is to get WAN2 independently usable by the router and verify clien
 
 ## Later operational observation
 
-During a later Project 003 power-continuity run, Internet connectivity was unexpectedly lost while the UDR7 secondary-WAN path was still unresolved.
+During a later Project 003 power-continuity session, Internet connectivity was found to be unavailable while the UDR7 secondary-WAN path was still unresolved.
+
+The exact onset time of the connectivity loss was not established.
 
 I restored working Internet access by connecting directly through Starlink Ethernet. This provided a usable manual fallback for that situation, but it did not validate WAN2 operation or automatic failover through the UDR7.
 
-The cause of the original WAN interruption was not established, so this later event is not being used to assign a failure cause to the router, ISP or power chain.
+The available evidence does not establish the cause of the connectivity loss, so this event is not being used to assign a failure cause to the router, ISP, or power chain.
 
 ## Why the separate phone connection matters
 
