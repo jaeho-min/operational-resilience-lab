@@ -2,6 +2,16 @@
 
 The first run produced useful observations, but I need a better record of when each service stops and returns. The work below is planned or deferred; these are not completed results.
 
+## Update from later testing
+
+A later Project 003 power-continuity run introduced another useful network observation: Internet connectivity was unexpectedly lost while the power chain was being tested.
+
+The cause was not established, so the event is not being treated as evidence of a power-related network failure. I stopped the planned sequence rather than adding another test stage while the WAN state was uncertain.
+
+Working connectivity was restored through a direct Starlink Ethernet connection. This demonstrated a manual degraded path for that situation, but it did not validate automatic or UDR7-based secondary-WAN failover.
+
+This event reinforces the need to test LAN continuity, primary-WAN availability, secondary-WAN usability and router failover as separate conditions.
+
 ## Repeat the controlled restart
 
 Before the next run I will record the router and application versions, the PC's exact Ethernet path, the selected camera, the active WAN and the test start time. I will use a common time reference for the restart action and the collected logs.
