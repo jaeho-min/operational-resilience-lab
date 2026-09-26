@@ -38,6 +38,14 @@ Configuration, address assignment, port roles and software behavior are areas to
 
 The next step is to get WAN2 independently usable by the router and verify client traffic through it. Only then will I test primary-link failure and return to the primary path.
 
+## Later operational observation
+
+During a later Project 003 power-continuity run, Internet connectivity was unexpectedly lost while the UDR7 secondary-WAN path was still unresolved.
+
+I restored working Internet access by connecting directly through Starlink Ethernet. This provided a usable manual fallback for that situation, but it did not validate WAN2 operation or automatic failover through the UDR7.
+
+The cause of the original WAN interruption was not established, so this later event is not being used to assign a failure cause to the router, ISP or power chain.
+
 ## Why the separate phone connection matters
 
 The phone's automatic connection to Starlink Wi-Fi, described in [the reboot observations](01-reboot-observations.md), bypassed the unresolved router integration. It gives me a candidate manual/client fallback path to test further, but it does not provide the same recovery behavior for wired lab equipment.
