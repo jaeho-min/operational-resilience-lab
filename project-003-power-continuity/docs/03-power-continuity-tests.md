@@ -1,4 +1,7 @@
 # Power Continuity Tests
+Media capture times are recorded separately in the [Evidence Index](05-evidence-index.md).
+
+The capture timestamp identifies when a file was recorded; it does not necessarily establish the exact onset time of an observed event.
 
 ## Test 01 - UPS grid loss and recovery
 
