@@ -12,8 +12,8 @@ Verify whether the tested LAN path remains available when grid power to the UPS 
 ### Test conditions
 
 - CyberPower OLS3000EA operating ONLINE before the test
-- UPS load: approximately 5%
-- UPS output power: approximately 131 W
+- UPS load: approximately 4%
+- UPS output power: approximately 132 W
 - Monitoring PC powered from a separate grid socket
 - PC Wi-Fi disabled
 - PC connected by Ethernet through the lab switch
@@ -84,8 +84,7 @@ Minimum RTT:      0 ms
 Maximum RTT:      10 ms
 Average RTT:      0 ms
 ```
-No LAN interruption was observed during the recorded source-transfer sequence.
-
+No interruption of the tested LAN path was observed during the recorded source-transfer sequence.
 ### Conclusion
 
 The tested LAN path remained reachable while the UPS transitioned from direct grid input, through temporary UPS battery operation, to BLUETTI AC input.
@@ -98,23 +97,23 @@ This was a manual source-transfer test. It does not demonstrate automatic BLUETT
 - [Test 02 - UPS grid-to-BLUETTI source transfer video](../media/power-continuity/test-02-ups-source-transfer/test-02-ups-grid-to-bluetti-source-transfer.mp4)
 
 
-## Interrupted run - unexpected WAN outage
+## Interrupted run - Internet connectivity unavailable
 
 ### Context
 
 During the broader source-transfer and power-continuity session, Internet connectivity was found to be unavailable.
 
-The exact onset time of the WAN interruption was not established. A BLUETTI state image was captured at 17:52, but that timestamp does not establish when the network interruption began.
+The exact onset time of the Internet connectivity loss was not established. A BLUETTI state image was captured at 17:52, but that timestamp does not establish when the network interruption began.
 
 ### What happened
 
 When I returned to check the online connection during the testing session, Internet access was already unavailable.
 
-Because the WAN state had become an uncontrolled variable, I stopped the planned progression rather than continuing directly into another failure stage.
+Because Internet connectivity had become an uncontrolled variable, I stopped the planned progression rather than continuing directly into another failure stage.
 
 ### Decision
 
-This observation is not used to claim WAN continuity, automatic failover, or a completed upstream-grid-loss test.
+This observation is not used to claim Internet continuity, automatic WAN failover, or a completed upstream-grid-loss test.
 
 Working Internet access was restored by connecting directly through Starlink Ethernet.
 
@@ -140,7 +139,7 @@ No causal claim is assigned to the BLUETTI or UPS.
 
 The planned next stage was to test the UPS as the final power source by removing BLUETTI AC output after establishing the intended upstream power condition.
 
-This stage was not completed during the controlled sequence because the unexpected WAN interruption introduced an uncontrolled variable.
+This stage was not completed during the controlled sequence because the unexpected loss of Internet connectivity introduced an uncontrolled variable.
 
 No continuity result is claimed for this stage.
 
