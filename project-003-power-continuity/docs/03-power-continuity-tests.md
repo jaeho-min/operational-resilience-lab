@@ -51,3 +51,42 @@ This result demonstrates continuity of the tested LAN path only. It does not by 
 - [UPS baseline - 132 W output](../media/power-continuity/test-01-ups-grid-loss/ups-baseline-output-132w.jpeg)
 - [UPS baseline - 4% load](../media/power-continuity/test-01-ups-grid-loss/ups-baseline-load-4pct.jpeg)
 - [Test 01 - UPS grid loss and recovery video](../media/power-continuity/test-01-ups-grid-loss/test-01-ups-grid-loss-recovery.mp4)
+
+
+## Test 02 - UPS source transfer from grid to BLUETTI
+
+### Objective
+
+Verify whether the tested LAN path remains available while the UPS input source is manually transferred from direct grid power to the BLUETTI power station.
+
+### Sequence
+
+1. Continuous ping monitoring to `[LOCAL_GATEWAY]` was started.
+2. BLUETTI AC output was enabled.
+3. The UPS input was disconnected from the wall outlet.
+4. The UPS entered battery operation and its battery alarm was audible.
+5. The UPS input was connected to the BLUETTI AC output.
+6. The UPS accepted the BLUETTI source and returned to ONLINE operation.
+7. Ping statistics were recorded after the source transfer.
+
+### Result
+
+```text
+Packets sent:     217
+Packets received: 217
+Packets lost:     0
+Packet loss:      0%
+
+Minimum RTT:      0 ms
+Maximum RTT:      10 ms
+Average RTT:      0 ms
+```
+No LAN interruption was observed during the recorded source-transfer sequence.
+
+###Conclusion
+
+The tested LAN path remained reachable while the UPS transitioned from direct grid input, through temporary UPS battery operation, to BLUETTI AC input.
+This was a manual source-transfer test. It does not demonstrate automatic BLUETTI failover during an upstream grid outage.
+
+###Evidence
+To be linked after confirming the exact uploaded filenames.
