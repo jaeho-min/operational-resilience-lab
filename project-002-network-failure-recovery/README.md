@@ -43,7 +43,9 @@ The WAN screenshot shows Melita assigned to port 4 and Starlink WAN2 assigned to
 
 ## Later cross-project observation
 
-During a later Project 003 power-continuity run, Internet connectivity was unexpectedly lost while the power chain was being tested. The run was stopped rather than continuing into another failure stage with the network state uncertain.
+During a later Project 003 power-continuity session, Internet connectivity was found to be unavailable.
+
+The exact onset time of the connectivity loss was not established.
 
 The cause of the WAN interruption was not established. The available observations do not distinguish between the ISP path, UDR7 WAN state, another upstream network condition, or an event coincident with the power test.
 
