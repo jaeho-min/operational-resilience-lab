@@ -78,11 +78,11 @@ These records will continue to develop as measurements, close-up inspection reco
 
 ## What comes next
 
-Project 000 gives the later projects somewhere reliable to operate from.
+Project 000 provides the physical and operational baseline for the later projects.
 
-- Project 001 focuses on network and internet continuity.
-- Project 002 focuses on wireless, monitoring, and service visibility.
-- Project 003 focuses on power continuity and recovery.
+- Project 001 focuses on wireless, cellular, and RF observations.
+- Project 002 focuses on network failure, recovery, and backup-path validation.
+- Project 003 focuses on multi-source power continuity and recovery.
 
 The next stage is not to make the room look finished. It is to test failure, degraded operation, recovery, and verification one system at a time.
 
