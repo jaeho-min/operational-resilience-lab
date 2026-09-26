@@ -12,6 +12,12 @@ The physical baseline is in place, but the system is still a work in progress. S
 
 I document what worked, what failed, and what still needs testing.
 
+## Verified so far
+
+- [UPS grid-loss and recovery test](project-003-power-continuity/docs/03-power-continuity-tests.md): 129/129 LAN ping replies, 0% packet loss on the tested path.
+- [Manual UPS source transfer from grid to BLUETTI](project-003-power-continuity/docs/03-power-continuity-tests.md): 217/217 LAN ping replies, 0% packet loss on the tested path.
+- [Starlink standalone and secondary-WAN attempt](project-002-network-failure-recovery/docs/02-starlink-wan-attempt.md): direct Ethernet Internet access worked, but UDR7 secondary-WAN failover remains unresolved.
+
 ## Lab snapshots
 
 <table>
