@@ -35,11 +35,23 @@ I plan to repeat the run under comparable conditions and retain each result. I w
 
 ## Validate the backup WAN
 
-First I will document and resolve the secondary-WAN integration. I will record the relevant port assignment and address state, make one change at a time and check whether a client can actually use the path.
+Starlink has already been observed to provide working Internet access when connected directly by Ethernet to a client device. However, the Starlink path remains unresolved when configured as the UDR7 secondary WAN, so router-level failover has not been validated.
 
-After it works independently through the UDR7, I will test primary-WAN interruption while leaving the router running. That isolates a different failure from rebooting the router itself. I will observe the selected WAN, packet replies, DNS, web access and any selected active sessions, then test the return to the primary connection.
+The next step is to isolate the UDR7 WAN2 integration itself. I will record the relevant port assignment, address state and router status, make one change at a time, and confirm whether a downstream client can actually use Starlink through the UDR7.
 
-I will define success criteria before each run, including what counts as sustained recovery. A working link indicator alone will not meet the service criteria. If the backup remains unusable, I will record that outcome and stop short of calling the test a successful failover.
+Only after the secondary WAN works independently through the UDR7 will I test primary-WAN interruption while leaving the router running. That test will separately observe:
+
+- selected WAN state
+- local gateway reachability
+- external reachability
+- DNS resolution
+- fresh web access
+- any selected active sessions
+- return to the primary WAN
+
+I will define success criteria before each run, including what counts as sustained recovery.
+
+A configured secondary WAN, a link indicator or a working direct Starlink connection will not by themselves be treated as evidence of successful UDR7 failover.
 
 ## Remaining dependencies
 
