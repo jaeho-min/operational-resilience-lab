@@ -4,7 +4,9 @@ The first run produced useful observations, but I need a better record of when e
 
 ## Update from later testing
 
-A later Project 003 power-continuity run introduced another useful network observation: Internet connectivity was unexpectedly lost while the power chain was being tested.
+A later Project 003 power-continuity session introduced another useful network observation: Internet connectivity was found to be unavailable.
+
+The exact onset time of the connectivity loss was not established.
 
 The cause was not established, so the event is not being treated as evidence of a power-related network failure. I stopped the planned sequence rather than adding another test stage while the WAN state was uncertain.
 
