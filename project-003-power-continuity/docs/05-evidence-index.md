@@ -21,7 +21,7 @@ Capture times below are taken from the original media metadata or device timesta
 
 | Evidence | Purpose | Captured |
 | --- | --- | --- |
-| [BLUETTI state during interrupted run](../media/power-continuity/interrupted-run/bluetti-state-during-interrupted-run.jpeg) | BLUETTI state associated with the interrupted run; the exact onset time of the WAN interruption was not established | 25 Sep 2026, 17:52 |
+| [BLUETTI state associated with interrupted run](../media/power-continuity/interrupted-run/bluetti-state-during-interrupted-run.jpeg) | BLUETTI state associated with the interrupted run; the exact onset time of the Internet connectivity loss was not established | 25 Sep 2026, 17:52 |
 
 ## Commissioning blockers
 
