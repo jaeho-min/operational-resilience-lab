@@ -100,47 +100,41 @@ This was a manual source-transfer test. It does not demonstrate automatic BLUETT
 
 ## Interrupted run - unexpected WAN outage
 
-### Objective
+### Context
 
-Continue the power-continuity sequence with the BLUETTI supplying the UPS, then observe behavior during upstream grid loss.
+During the broader source-transfer and power-continuity session, Internet connectivity was found to be unavailable.
 
-### Pre-test condition
-
-- BLUETTI was supplying the UPS.
-- The UPS remained online with the protected network load.
-- A pre-test BLUETTI state capture was recorded.
-- The same UPS baseline used for Test 02 applied immediately before this run.
+The exact onset time of the WAN interruption was not established. A BLUETTI state image was captured at 17:52, but that timestamp does not establish when the network interruption began.
 
 ### What happened
 
-During the run, Internet connectivity was unexpectedly lost.
+When I returned to check the online connection during the testing session, Internet access was already unavailable.
 
-At that point, an uncontrolled network variable had entered the test environment.
-
-Rather than continuing directly into the next power-failure stage, I stopped the planned sequence.
+Because the WAN state had become an uncontrolled variable, I stopped the planned progression rather than continuing directly into another failure stage.
 
 ### Decision
 
-The run was not used to claim successful WAN continuity or a completed upstream-grid failover test.
+This observation is not used to claim WAN continuity, automatic failover, or a completed upstream-grid-loss test.
 
-Working Internet access was restored by connecting through Starlink Ethernet directly.
+Working Internet access was restored by connecting directly through Starlink Ethernet.
 
 ### Root cause
 
 Not confirmed.
 
-The available evidence does not establish whether the WAN interruption was caused by:
+The available evidence does not distinguish between:
 
-- the local ISP path,
+- the primary ISP path,
 - the UDR7 WAN state,
 - another upstream network condition,
-- or timing coincident with the power test.
+- or an event coincident with the power test.
 
-No causal claim is assigned to the BLUETTI or UPS from this event.
+No causal claim is assigned to the BLUETTI or UPS.
 
 ### Evidence
 
-- [BLUETTI state during interrupted run](../media/power-continuity/interrupted-run/bluetti-state-during-interrupted-run.jpeg)
+- [BLUETTI state associated with the interrupted run](../media/power-continuity/interrupted-run/bluetti-state-during-interrupted-run.jpeg)
+- [Evidence Index and capture times](05-evidence-index.md)
 
 ## Test 03 - deferred
 
